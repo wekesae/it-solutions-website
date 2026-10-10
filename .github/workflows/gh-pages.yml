@@ -25,9 +25,10 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        working-directory: exampleSite
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./exampleSite/public
