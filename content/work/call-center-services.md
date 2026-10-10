@@ -5,10 +5,10 @@ draft: false
 weight: 2
 heroHeading: 'Call Center Setup'
 heroSubHeading: 'Professional VoIP and contact center infrastructure solutions.'
-heroBackground: '/images/call-center.jfif'
-thumbnail: '/images/call-center.jfif'
-image: '/images/call-center.jfif'
-images: ['/images/call-center.jfif']
+heroBackground: 'images/call-center.jfif'
+thumbnail: 'images/call-center.jfif'
+image: 'images/call-center.jfif'
+images: ['images/call-center.jfif']
 icon: ''
 ---
 
